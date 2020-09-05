@@ -98,7 +98,7 @@ void wilson_validate_range(int32 trials, int32 success, double z_score)
 		));
 	}
 
-	if(z_score < 3 && z_score > 3)
+	if(z_score < -3 || z_score > 3)
 	{
 		ereport(ERROR, (
 			errcode(ERRCODE_NUMERIC_VALUE_OUT_OF_RANGE),

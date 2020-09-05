@@ -1,0 +1,4 @@
+comment = 'Calculates the Wilson score confience interval for a Bernoulli parameter'
+default_version = '0.0.1'
+module_pathname = '$libdir/wilson_score_interval'
+relocatable = true
